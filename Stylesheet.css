@@ -89,13 +89,11 @@ h3{
     margin-left: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    
+     text-align: center;
     border: 1px solid;
 }
 .photos {
     height: 200px;
 }
 
-.textinfo{
-    text-align:left;
-}
+
