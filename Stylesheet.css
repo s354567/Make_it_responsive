@@ -24,12 +24,12 @@ body{
 }
   
 .navigasjon a:hover {
-    background-color:red;
+    background-color:white;
     color: black;
 }
 
 .navigasjon a.active {
-    background-color: blue;
+    background-color: lightcoral;
     color: white;
 }
 
