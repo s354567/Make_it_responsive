@@ -1,1 +1,17 @@
-.
+ont-size: 40px;
+}
+.box1 {
+    float: left;
+    width: 400px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border: 1px solid;
+}
+.photos {
+    height: 200px;
+}
+
