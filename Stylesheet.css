@@ -68,3 +68,31 @@ h2{
 h3{
   font-size: 30px;
 }
+#topbar {
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+}
+#headerbox {
+    float: left;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.box {
+    float: left;
+    height: 550px;
+    width: 400px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border: 1px solid;
+}
+.photos {
+    height: 200px;
+}
+
