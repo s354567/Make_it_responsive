@@ -133,9 +133,11 @@ h3{
     border: 1px solid;
 }
 hr {
-    margin-top: 20px;
+    margin-top: 650px;
+}
+#contacth3 {
+    text-align: center;
 }
 #contact {
     text-align: center;
 }
-
