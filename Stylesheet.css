@@ -101,7 +101,7 @@ h3{
 .box {
     float: left;
     height: 600px;
-    width: 400px;
+    width: 20%;
     background-color: aliceblue;
     margin-top: 50px;
     margin-left: 25px;
@@ -111,8 +111,9 @@ h3{
     border: 1px solid;
 }
 .photos {
-    height: 200px;
+    height: 18%;
 }
+
 
 
 #activitessource{
