@@ -215,3 +215,16 @@ hr {
 .schedulephoto{
     width: 100%;
 }
+
+.boxteam{
+    float: left;
+    height: 700px;
+    width: 20%;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+      text-align: center;
+    border: 1px solid;
+}
