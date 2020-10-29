@@ -178,3 +178,39 @@ hr {
     width:25%;
     margin-left: 37%
 }
+
+
+.signup{
+    width: 97%;
+    height: 40px;
+}
+
+.buttonsubmit{
+    width: 30%;
+    height: 40px;
+    
+}
+
+
+
+.boxschedule{
+    float: left;
+    height: 1200px;
+    width: 20%;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+      text-align: center;
+    border: 1px solid;
+}
+
+.participate{
+    font-size: 
+}
+
+
+.schedulephoto{
+    width: 100%;
+}
