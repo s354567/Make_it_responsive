@@ -180,8 +180,8 @@ hr {
 }
 
 
-.
-.signup{
+
+signup{
     width: 97%;
     height: 40px;
 }
@@ -196,7 +196,7 @@ hr {
 
 .boxschedule{
     float: left;
-    height: 1200px;
+    height: 1300px;
     width: 20%;
     background-color: aliceblue;
     margin-top: 50px;
@@ -206,6 +206,7 @@ hr {
       text-align: center;
     border: 1px solid;
 }
+
 
 .schedulephoto{
     width: 100%;
