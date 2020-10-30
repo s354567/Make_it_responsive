@@ -5,6 +5,7 @@ html, body{
     height:100%;
     font-family: sans-serif;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 /*navigasjon*/
@@ -52,7 +53,6 @@ h2{
   border: solid 1px;
   background-color: aliceblue;
   width: 70%;
-  font-size: 20px;
   padding: 10px;
 }
 
@@ -67,7 +67,6 @@ h2{
     width: 20%;
     text-align: center;
     padding: 10px;
-    
 }
 
 /*bilder*/
@@ -108,7 +107,6 @@ h2{
     padding-right: 20px;
     padding-bottom: 20px;
     border: 1px solid;
-    font-size: 20px;
 }
 
 #message{
@@ -152,4 +150,64 @@ footer{
     left: 0;
     right: 0;
     margin-top: 2%;
+}
+
+/*small pc css*/
+@media screen and (max-width: 1024px){
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .content-box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .test{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photoTeam{
+        width: 30%;
+        object-fit: cover;
+        max-height: 300px;
+        
+    }
+
+    .team-text{
+        width: 70%;
+        padding: 5px;
+    }
+    
+    .headerbox{
+        font-size: 32px;
+    }
+}
+
+/*phone and tablet css*/
+@media screen and (max-width: 768px){
+    .test{
+        flex-direction: column;
+    }
+
+    .photoTeam{
+        width: 50%;
+        margin: auto;
+    }
+
+    .team-text{
+        width: 100%;
+    }
+
+    .navigasjon a{
+        font-size: 15px;
+    }
+
+    .headerbox{
+        font-size: 25px;
+    }
 }
