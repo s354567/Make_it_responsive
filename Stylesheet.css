@@ -1,32 +1,13 @@
-body{
+html, body{
     background-color: lightblue;
     margin: 0;
+    padding:0;
+    height:100%;
     font-family: sans-serif;
+    line-height: 1.5;
 }
 
-.Overskrift{
-    font-family: sans-serif;
-     text-align: center;
-    
-
-}
-
-.logo{
-    width: 22%;
-    margin-left: 39%;
-    margin-top: 1px;
-}
-
-#header{
-    width: 100%;
-    height: 100px;
-}
-
-.space{
-    width: 100%;
-    height: 150px;
-}
-  
+/*navigasjon*/
 .navigasjon {
     overflow: hidden;
     background-color: #333;
@@ -39,7 +20,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
   
 .navigasjon a:hover {
@@ -52,80 +33,57 @@ body{
     color: white;
 }
 
-h2{
-  text-align: center;
-  font-size: 40px;
-}
-  
-.text-container{
-  text-align: center;
-  margin: auto;
-  border: solid salmon;
-  width: 70%;
-  font-size: 20px;
-  line-height: 1.5;
-  padding: 10px;
-}
-
-.picture{
-  width: 500px;
-  border: solid slateblue;
-}
-
-.content{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
-}
-
-.text-info{
-  width: 40%;
-  border: solid salmon;
-  padding: 10px;
-}
-
-h3{
-  font-size: 30px;
-}
-#topbar {
-    height: 100px;
-    width: 100%;
-    background-color: aliceblue;
-}
-#headerbox {
-    float: left;
-    height: 100px;
+/*overskrifter*/
+.headerbox {
+    height: min-content;
     width: 100%;
     text-align: center;
     font-size: 40px;
 }
-.box {
-    float: left;
-    height: 600px;
-    width: 20%;
-    background-color: aliceblue;
-    margin-top: 50px;
-    margin-left: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-     text-align: center;
-    border: 1px solid;
+  
+h2{
+  font-size: 30px;
 }
+
+/*tekstboks forside*/
+.text-container{
+  text-align: center;
+  margin: auto;
+  border: solid 1px;
+  background-color: aliceblue;
+  width: 70%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/*bokser staff og schedule*/
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-box{
+    background-color: aliceblue; 
+    border: 1px solid;   
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/*bilder*/
 .photos {
     height: 18%;
 }
 
-.photoMartine{
+.photoTeam{
     width: 50%;
 }
 
-
-
-#activitessource{
-    text-align: left;
+.schedulephoto{
+    width: 100%;
 }
 
-
+/*har vi en side for kilder?*/
 #boxsource{
     float: left;
     height: 600px;
@@ -138,40 +96,30 @@ h3{
     text-align: left;
     border: 1px solid;
 }
+
+/*kontaktside*/
 #boxcontact {
-    float: left;
-    height: 750px;
+    height: fit-content;
     width: 50%;
     background-color: aliceblue;
     margin-top: 50px;
     margin-left: 24%;
     padding-left: 20px;
     padding-right: 20px;
-    
+    padding-bottom: 20px;
     border: 1px solid;
     font-size: 20px;
-    
-}
-hr {
-    margin-top: 650px;
-}
-#contacth3 {
-    text-align: center;
-}
-#contact {
-    text-align: center;
 }
 
 #message{
     height:150px; 
-   width: 98%;
+    width: 98%;
     
 }
 
 .length{
     height: 25px; 
     width: 98%;
-
 }
 
 .textinfo{
@@ -179,12 +127,10 @@ hr {
 }
 
 #submitbutton{
-     height:30px; 
+    height:30px; 
     width:25%;
     margin-left: 37%
 }
-
-
 
 .signup{
     width: 97%;
@@ -197,34 +143,13 @@ hr {
     
 }
 
-
-.boxschedule{
-    float: left;
-    height: 1300px;
-    width: 20%;
-    background-color: aliceblue;
-    margin-top: 50px;
-    margin-left: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-      text-align: center;
-    border: 1px solid;
-}
-
-
-.schedulephoto{
+/*footer på alle sider*/
+footer{
+    text-align: center;
+    height: min-content;
     width: 100%;
-}
-
-.boxteam{
-    float: left;
-    height: 650px;
-    width: 20%;
-    background-color: aliceblue;
-    margin-top: 50px;
-    margin-left: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-      text-align: center;
-    border: 1px solid;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2%;
 }
