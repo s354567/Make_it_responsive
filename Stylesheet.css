@@ -76,6 +76,8 @@ h2{
 
 .photoTeam{
     width: 50%;
+    height: 15%;
+    object-fit: cover;
 }
 
 .schedulephoto{
@@ -173,9 +175,8 @@ footer{
 
     .photoTeam{
         width: 30%;
-        object-fit: cover;
+        object-fit: scale-down;
         max-height: 300px;
-        
     }
 
     .team-text{
@@ -196,6 +197,7 @@ footer{
 
     .photoTeam{
         width: 50%;
+        object-fit: scale-down;
         margin: auto;
     }
 
