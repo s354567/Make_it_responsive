@@ -76,6 +76,9 @@ h2{
     padding: 10px;
 }
 
+.text-schedule{
+    text-align: left;
+}
 /*bilder*/
 .photos {
     height: 18%;
