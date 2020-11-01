@@ -12,6 +12,7 @@ html, body{
 .navigasjon {
     overflow: hidden;
     background-color: #333;
+    position: sticky;
 }
   
 .navigasjon a {
