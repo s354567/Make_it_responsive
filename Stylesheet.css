@@ -115,12 +115,13 @@ h2{
     width: 50%;
     background-color: aliceblue;
     margin-top: 50px;
-    margin-left: 24%;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     border: 1px solid;
 }
+
 
 #message{
     height:150px; 
@@ -142,6 +143,12 @@ h2{
     width:25%;
     margin-left: 37%
 }
+
+/*contact box*/
+@media screen and (max-width: 768px){
+    #boxcontact{
+         width: 80%;
+    }
 
 .signup{
     width: 97%;
