@@ -61,21 +61,35 @@ h2{
 
 /*tekstboks forside*/
 .text-container{
-    margin: auto;
-    text-align: center;
-    border: solid 1px;
-    background-color: aliceblue;
-    width: 60%;
-    padding: 10px; 
-    font-size: 18px;
+  
+  margin: auto;
+text-align: center;
+  border: solid 1px;
+  background-color: aliceblue;
+  width: 60%;
+  padding-left: 10px; 
+  padding-right: 10px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
 }
 
 .statement{
-    text-align: center;
+   
+   margin-left: 350px;
     font-size: 35px;
     width: 60%;
+    
+}
+
+@media screen and (max-width: 768px){
+    .text-container{
+         width: 80%;
+    }
+    .statement{
     margin: auto;
-    text-shadow: 1px 1px 1px aliceblue;
+    font-size: 20px;
+    width: 60%;
+    }
 }
 
 /*bokser staff og schedule*/
@@ -149,6 +163,7 @@ h2{
     #boxcontact{
          width: 80%;
     }
+}
 
 .signup{
     width: 97%;
