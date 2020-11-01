@@ -60,12 +60,21 @@ h2{
 /*tekstboks forside*/
 .text-container{
   
-  margin-left: 10px;
+  margin: auto;
+text-align: center;
   border: solid 1px;
   background-color: aliceblue;
-  width: 40%;
+  width: 60%;
   padding-left: 10px; 
   padding-right: 10px; 
+}
+
+.statement{
+   
+    margin:auto;
+    font-size: 30px;
+    width: 50%;
+    
 }
 
 /*bokser staff og schedule*/
