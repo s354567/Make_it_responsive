@@ -47,12 +47,12 @@ nav{
     width: 100%;
     text-align: center;
     font-size: 40px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
   
 .photoheader{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 h2{
@@ -74,12 +74,11 @@ text-align: center;
 }
 
 .statement{
-   
-   margin: auto;
+    margin: auto;
     text-align: center;
     font-size: 35px;
     width: 60%;
-    
+    padding-top: 2%;
 }
 
 @media screen and (max-width: 768px){
